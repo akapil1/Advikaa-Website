@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Advikaa Kapil Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/three@0.134.0/build/three.min.js"></script>
+</head>
+<body>
+
+  <!-- Three.js Canvas for Particles -->
+  <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Links Bar -->
+    <nav class="nav-links-bar">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+            <span class="logo-text">Poise and Power.</span>
+        </div>        
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#exposure">Exposure</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#passion">Passion</a></li>
+        </ul>
+        <div id="hamburger-menu" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="background-text">Hey All,<br>Welcome<br>To My World!!</div>
+            <div class="home-image-container">
+                <img src="images/trial.jpeg" alt="Advikaa Kapil Profile Picture" class="profile-img">
+            </div>
+            <div class="name-container">
+                <div class="name-left">ADVIKAA</div>
+                <div class="name-right">KAPIL</div>
+            </div>
+            <div class="mentions">
+                <span class="mention">|Graphic Designer|</span>
+                <span class="mention">|Full Stack Developer|</span>
+                <span class="mention">|AI, ML & Data Science|</span>
+                <span class="mention">|Model|</span>
+                <span class="mention">|Author|</span>
+            </div>
+            <div class="resume-download">
+                <button class="resume-button" onclick="window.location.href='AK_Resume_2025.pdf'; this.blur();">
+                    Checkout my Resume
+                </button>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/akapil1" target="_blank"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="https://youtube.com/@advikaakapil4037" target="_blank"><img src="images/youtube.jpg" alt="YouTube"></a>
+                <a href="https://instagram.com/advikaa.k2004/" target="_blank"><img src="images/insta.jpg" alt="Instagram"></a>
+                <a href="mailto:advikaakapil2022@gmail.com"><img src="images/email.jpg" alt="Email"></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    
+<!-- Technical Skills -->
+<div class="skills-container" id="skills">
+    <h3 class="skills-heading">Technical Skills</h3>
+    <div class="skills-cards">
+        
+        <div class="skill-card">
+            <h4>Technical Proficiencies</h4>
+            <p>Python, R, SQL, HTML, CSS, Java, Adobe XD, Sketch, AngularJS, Tableau, GitHub</p>
+        </div>
+
+        <div class="skill-card">
+            <h4>Data & Backend</h4>
+            <p>Kafka, REST APIs, RDBMS, H2 Database, Java APIs, JPA, CRUD operations</p>
+        </div>
+
+        <div class="skill-card">
+            <h4>Agentic AI & Insights</h4>
+            <p>Data Analysis, Agentic AI integration, Data-driven Strategy, LLMs, Workflow Automation</p>
+        </div>
+
+        <div class="skill-card">
+            <h4>User Experience & Design</h4>
+            <p>Figma, Canva, Astah, Adobe XD, Sketch</p>
+        </div>
+
+        <div class="skill-card">
+            <h4>Testing & DevOps</h4>
+            <p>JUnit, Jira, GitHub, Agile methodologies</p>
+        </div>
+
+        <div class="skill-card">
+            <h4>Compliance & Strategy</h4>
+            <p>Competitive Analysis & strategy, Legal Operations, Supplier Management, Law Enforcement Administration</p>
+        </div>
+
+    </div>
+</div>
+    
+    <!-- Soft Skills -->
+    <div class="skills-container soft-skills">
+        <h3 class="skills-heading">Soft Skills</h3>
+        <div class="soft-skills-list">
+            <ul>
+                <li>Critical Thinking and Problem Solving</li>
+                <li>Leadership and Teamwork</li>
+                <li>Flexibility and Adaptability</li>
+                <li>Creative and Multitasker</li>
+                <li>Project and Event Management</li>
+                <li>Customer Service Skills</li>
+                <li>Tutoring and Student Assistance</li>
+                <li>Interpersonal skills</li>
+                <li>Fluent in English, Hindi, and Spanish</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="exposure" class="exposure-section">
+    <h2 class="section-heading">Exposure</h2>
+    <div class="timeline-container">
+      <div class="timeline-line"></div>
+
+      <!-- AI Consultant -->
+      <div class="timeline-item" data-key="ai-consultant">
+       <div class="timeline-circle">
+        <img src="images/ASU.jpg" alt="ASU LXD Logo" />
+      </div>
+      <div class="timeline-card">
+        <h3>AI Consultant</h3>
+        <p>Present, 2025</p>
+      </div>
+    </div>
+
+      <!-- Tech Consulting Intern -->
+      <div class="timeline-item" data-key="tech-consulting">
+       <div class="timeline-circle">
+        <img src="images/capgemini logo.jpg" alt="Capgemini Logo" />
+      </div>
+      <div class="timeline-card">
+       <h3>Tech Consulting Intern</h3>
+       <p>June - July, 2025</p>
+      </div>
+     </div>
+  
+      <!-- Writing Coach -->
+      <div class="timeline-item" data-key="writing-coach">
+        <div class="timeline-circle">
+          <img src="images/ASU.jpg" alt="ASU Logo" />
+        </div>
+        <div class="timeline-card">
+          <h3>Writing Coach</h3>
+          <p>July, 2023 - April, 2025</p>
+        </div>
+      </div>
+  
+      <!-- Marketing Designer -->
+      <div class="timeline-item" data-key="marketing-designer">
+        <div class="timeline-circle">
+          <img src="images/DL.jpg" alt="DineLocal Logo" />
+        </div>
+        <div class="timeline-card">
+          <h3>Marketing Designer Intern</h3>
+          <p>May - August, 2024</p>
+        </div>
+      </div>
+  
+      <!-- Cloud Infrastructure -->
+      <div class="timeline-item" data-key="cloud-infrastructure">
+        <div class="timeline-circle">
+          <img src="images/Verizon.jpg" alt="Cloud Infrastructure Logo" />
+        </div>
+        <div class="timeline-card">
+          <h3>Cloud Infrastructure Intern</h3>
+          <p>April - May, 2024</p>
+        </div>
+      </div>
+  
+      <!-- Data Analyst -->
+      <div class="timeline-item" data-key="data-analyst">
+        <div class="timeline-circle">
+          <img src="images/LT.jpg" alt="Data Analyst Logo" />
+        </div>
+        <div class="timeline-card">
+          <h3>Data Analyst Intern</h3>
+          <p>June - July, 2023</p>
+        </div>
+      </div>
+  
+      <!-- UI/UX Designer -->
+      <div class="timeline-item" data-key="uiux-designer">
+        <div class="timeline-circle">
+          <img src="images/CRIS.jpg" alt="UI/UX Logo" />
+        </div>
+        <div class="timeline-card">
+          <h3>UI/UX Designer Intern</h3>
+          <p>May - June, 2023</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal -->
+    <div id="job-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-date"></p>
+        <p id="modal-company"></p>
+        <ul id="modal-description"></ul>
+      </div>
+    </div>
+  </section>
+  
+<!-- Certifications Section -->
+<section id="certifications">
+    <h2 class="certifications-title">Certifications</h2>
+    <div class="certifications-slider">
+        <div class="certifications-track">
+            <!-- Stanford -->
+            <div class="certification-card">
+                <div class="card-header" style="background-image: url('CRFT/stanford-bg.jpg');">
+                    <h3>Stanford</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Specialization in Machine Learning</h4>
+                    <ul>
+                        <li>Build and train ML models with NumPy, scikit-learn, and TensorFlow for classification and prediction tasks</li>
+                        <li>Implement decision trees, tree ensembles, clustering, anomaly detection, and recommender systems</li>
+                        <li>Apply ML development best practices for efficient training, evaluation, and deployment</li>
+                    </ul>
+                    <a href="CRFT/stanford_ml.jpg" download="Stanford_ML_Certificate.jpg" class="view-btn">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Microsoft Generative AI -->
+            <div class="certification-card">
+                <div class="card-header" style="background-image: url('CRFT/microsoft-bg.jpg');">
+                    <h3>Microsoft</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Career Essentials in Generative AI</h4>
+                    <ul>
+                        <li>Understand key concepts and technologies behind Artificial Intelligence and Generative AI</li>
+                        <li>Learn about the ethical implications and societal impact of using Generative AI tools</li>
+                        <li>Develop skills to effectively apply Gen AI models in real-world scenarios, to solve complex challenges</li>
+                    </ul>
+                    <a href="CRFT/microsoft_genai.jpg" download="Microsoft_GenAI_Certificate.jpg" class="view-btn">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Microsoft Data Analysis -->
+            <div class="certification-card">
+                <div class="card-header" style="background-image: url('CRFT/microsoft-bg.jpg');">
+                    <h3>Microsoft</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Career Essentials in Data Analysis</h4>
+                    <ul>
+                        <li>Build essential skills to analyze data, uncover insights, and drive decisions</li>
+                        <li>Learn to effectively use essential software tools like Excel, Power BI, and SQL for data manipulation, management, and visualization</li>
+                        <li>Master data visualization methods to present and support data-driven decision-making</li>
+                    </ul>
+                    <a href="CRFT/microsoft_data_analysis.jpg" download="Microsoft_Data_Analysis_Certificate.jpg" class="view-btn">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="certification-card">
+                <div class="card-header" style="background-image: url('CRFT/github-bg.jpg');">
+                    <h3>GitHub</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Career Essentials in GitHub Professional</h4>
+                    <ul>
+                        <li>Gained proficiency in creating automations using GitHub Actions to streamline workflows</li>
+                        <li>Explored GitHub Copilot to enhance coding efficiency with AI-driven suggestions</li>
+                        <li>Applied GitHub features through real-world projects, strengthening my developer portfolio</li>
+                    </ul>
+                    <a href="CRFT/github_professional.jpg" download="GitHub_Professional_Certificate.jpg" class="view-btn">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Edureka -->
+            <div class="certification-card">
+                <div class="card-header" style="background-image: url('CRFT/edureka-bg.jpg');">
+                    <h3>Edureka</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Applications of Generative AI in Marketing Analysis</h4>
+                    <ul>
+                        <li>Developed proficiency in applying Generative AI for advanced marketing analytics</li>
+                        <li>Mastered responsible AI use by addressing ethical considerations and privacy concerns</li>
+                        <li>Learned to leverage AI-powered tools for actionable marketing insights and improved decision-making</li>
+                    </ul>
+                    <a href="CRFT/edureka_genai.jpeg" download="Edureka_GenAI_Certificate.jpeg" class="view-btn">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="awards" class="awards-section">
+  <h2 class="section-heading">Awards</h2>
+  <div class="cosmic-container">
+    <!-- Award 1: Zoom AI Hackathon -->
+    <div class="award-planet" data-award="zoom-hackathon">
+      <div class="planet-core">
+        <h3>Zoom AI Hackathon</h3>
+        <p>Innovative AI</p>
+      </div>
+      <div class="ring"></div>
+    </div>
+
+    <!-- Award 2: SUN Award -->
+    <div class="award-planet" data-award="sun-award">
+      <div class="planet-core">
+        <h3>SUN Award - ASU</h3>
+        <p>Leadership Excellence</p>
+      </div>
+      <div class="ring"></div>
+    </div>
+
+    <!-- Award 3: Dean's List -->
+    <div class="award-planet" data-award="deans-list">
+      <div class="planet-core">
+        <h3>Dean's List</h3>
+        <p>Academic Excellence</p>
+      </div>
+      <div class="ring"></div>
+    </div>
+
+    <!-- Award 4: Scholarship Recipient -->
+    <div class="award-planet" data-award="scholarship">
+      <div class="planet-core">
+        <h3>Scholarship Recipient</h3>
+        <p>Merit Scholarship</p>
+      </div>
+      <div class="ring"></div>
+    </div>
+
+    <!-- Award 5: Ms. Phoenix 2023, Ms. Arizona 2024 -->
+    <div class="award-planet" data-award="pageant-titles">
+      <div class="planet-core">
+        <h3>Fashion Icon</h3>
+        <p>Pageant Titles</p>
+      </div>
+      <div class="ring"></div>
+    </div>
+  </div>
+  <div class="tv-display">
+    <div class="tv-screen" id="tv-screen"></div>
+  </div>
+</section>
+
+<!-- Passion Section -->
+<section id="passion" class="passion-section">
+  <h2 class="section-heading">Passion</h2>
+  <div class="passion-container">
+    <!-- Passion 1: Author -->
+    <div class="passion-card" data-passion="author">
+      <div class="card-front">
+        <img src="images/author.jpeg" alt="Author Photo" class="passion-image">
+        <h3>Author</h3>
+        <p>Unapologetically Myself</p>
+      </div>
+      <div class="card-back">
+        <h4>Author</h4>
+        <p>I’m a poet and writing coach who values raw emotion. My book, <em>Unapologetically Myself</em>, is on <a href="https://www.amazon.com/Unapologetically-Myself-Advikaa-Kapil/dp/9355000405" target="_blank">Amazon</a>, and my blog, <a href="https://truthinmetaphors.wordpress.com/" target="_blank">Truth in Metaphors</a>, focuses on growth and resilience. I mentor aspiring poets through workshops, fostering the healing power of words and creating a space for fearless expression.</p>
+      </div>
+    </div>
+
+    <!-- Passion 2: Creative Director -->
+    <div class="passion-card" data-passion="dance">
+      <div class="card-front">
+        <img src="images/dancer.jpeg" alt="Dancer Photo" class="passion-image">
+        <h3>Creative</h3>
+        <p>Celebrating Culture</p>
+      </div>
+      <div class="card-back">
+        <h4>Creative Director</h4>
+        <p>Trained in Kathak and Bharatanatyam, I choreograph fusion dances and lead ASU ISSC workshops. For Ekta Mandir, AZ and HinduYUVA, I’ve directed <a href="https://www.youtube.com/watch?v=ANvpUJUAhOo" target="_blank"><em>Ramayana</em></a> and <a href="https://www.youtube.com/watch?v=HhDt7jnYQ6s" target="_blank"><em>Mahashivratri</em></a> performances, designing immersive stages. I teach kids and disabled students dance for stress relief, showcasing Indian heritage globally. See more on <a href="https://youtube.com/@advikaakapil4037" target="_blank">YouTube</a>.</p>
+      </div>
+    </div>
+
+    <!-- Passion 3: Modelling & Social Media Influencer -->
+    <div class="passion-card" data-passion="modeling">
+      <div class="card-front">
+        <img src="images/model.jpeg" alt="Modeling Photo" class="passion-image">
+        <h3>Media Icon</h3>
+        <p>Model and Influencer</p>
+      </div>
+      <div class="card-back">
+        <h4>Media Icon</h4>
+        <p>I model luxury brands, including a haute couture show at AIM, and hold titles Ms. Arizona 2024 and Miss Phoenix 2023. With 1.5M Instagram reach, I share motivational content and international student experiences, blending fashion, branding, and empowerment.</p>
+      </div>
+    </div>
+
+    <!-- Passion 4: Social Worker -->
+    <div class="passion-card" data-passion="volunteering">
+      <div class="card-front">
+        <img src="images/social.jpeg" alt="Social Worker Photo" class="passion-image">
+        <h3>Social Worker</h3>
+        <p>Betterment of Society</p>
+      </div>
+      <div class="card-back">
+        <h4>Social Worker</h4>
+        <p>As President of Child and Youth in Action, I led village adoption for sanitation and education. For Relief Wagon, I managed COVID-19 relief in NCR, distributing essentials. With Dream School on Wheels, I designed digital learning for slum kids, driving grassroots impact.</p>
+      </div>
+    </div>
+  </div>
+</section>
